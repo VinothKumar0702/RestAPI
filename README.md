@@ -26,25 +26,24 @@ Send a `POST` request to `/customers` with the following JSON:
   "customeraddress": "123 Main St",
   "mobile": 9876543210
 }
-### Get All Customers
-Send a `GET` request to `/customers`.
+Get All Customers
+Send a GET request to /customers.
 
-### Get Customer by ID
-Send a `GET` request to `/customers/{id}`.
+Get Customer by ID
+Send a GET request to /customers/{id}.
 
-### Update a Customer
-Send a `PUT` request to `/customers` with the updated details:
-```json
+Update a Customer
+Send a PUT request to /customers with the updated details:
 {
   "customerid": 1,
   "customername": "Jane Doe",
   "customeraddress": "456 Oak St",
   "mobile": 1234567890
 }
-### Delete a Customer
-Send a `DELETE` request to `/customers/{id}`.
+Delete a Customer
+Send a DELETE request to /customers/{id}.
 
-## Prerequisites
-- Java 17 or higher
-- Maven
-- MySQL Server
+Prerequisites
+Java 17 or higher
+Maven
+MySQL Server
